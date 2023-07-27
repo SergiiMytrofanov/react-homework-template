@@ -1,20 +1,30 @@
+
+
 .container {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .counter {
-    padding: 10px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-  }
-  
-  .button {
-    margin: 5px;
-    padding: 8px 16px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.counter {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.button {
+  margin: 5px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

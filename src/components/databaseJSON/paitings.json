@@ -1,0 +1,13 @@
+[
+  {
+    "id": "id-1",
+    "url": "https://cdn.lifehacker.ru/wp-content/uploads/2015/07/image08_1438256489.jpg",
+    "title": "Artichok. Art abstract",
+    " price": 500,
+    "author": {
+      "tag": "racta",
+      "url": "https://cdn.lifehacker.ru/wp-content/uploads/2015/07/image08_1438256489.jpg"
+    },
+    "quantity": 10
+  }
+]
