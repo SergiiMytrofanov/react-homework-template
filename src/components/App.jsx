@@ -2,11 +2,15 @@
 import AppCounter from "./Counter/Counter";
 import Painting from "./Paintings/Paitings";
 import CounterSecond from "./CounterSecond/CounterSecond";
-import paintings from "./databaseJSON/paitings.json"
+import paintings from "./databaseJSON/paitings.json";
+import AppInput from "./Input/Input";
 
 export const App = () => {
   return(
     <>
+
+    <AppInput/>
+
     {paintings.map(paintings => (
         <Painting
           key={paintings.id}
