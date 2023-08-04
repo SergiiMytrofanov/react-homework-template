@@ -3,13 +3,13 @@ import AppCounter from "./Counter/Counter";
 import Painting from "./Paintings/Paitings";
 import CounterSecond from "./CounterSecond/CounterSecond";
 import paintings from "./databaseJSON/paitings.json";
-import AppInput from "./Input/Input";
+import httpRequest from "./httpRequest/httpRequest";
 
 export const App = () => {
   return(
     <>
 
-    <AppInput/>
+    <httpRequest/>
 
     {paintings.map(paintings => (
         <Painting
